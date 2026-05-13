@@ -1,0 +1,37 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+body { background-color: #f9f9f9; color: #333; }
+
+/* Navbar */
+.navbar { background-color: #333; color: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; }
+.btn-sair { background-color: #dc3545; color: white; border: none; padding: 5px 15px; cursor: pointer; border-radius: 3px; }
+
+/* Containers */
+.container { max-width: 1000px; margin: 30px auto; padding: 20px; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+.header-actions { display: flex; justify-content: space-between; margin-bottom: 20px; align-items: center; }
+
+/* Inputs e Forms */
+input, select, textarea { width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 3px; }
+.form-group { margin-bottom: 15px; }
+.form-group label { font-weight: bold; }
+
+/* Botões */
+.btn { padding: 8px 15px; border: none; cursor: pointer; border-radius: 3px; color: white; text-decoration: none; display: inline-block;}
+.btn-dark { background-color: #333; }
+.btn-gray { background-color: #888; }
+.btn-green { background-color: #28a745; }
+.btn-yellow { background-color: #ffc107; color: #000; margin-right: 5px; }
+.btn-red { background-color: #dc3545; }
+
+/* Tabelas */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+th { background-color: #333; color: white; }
+
+/* Alertas e Badges */
+.alert-warning { background-color: #fff3cd; color: #856404; padding: 15px; border: 1px solid #ffeeba; margin-bottom: 20px; }
+.badge-normal { background-color: #d4edda; color: #155724; padding: 3px 8px; border-radius: 3px; border: 1px solid #c3e6cb; font-size: 12px; }
+.badge-warning { background-color: #fff3cd; color: #856404; padding: 3px 8px; border-radius: 3px; border: 1px solid #ffeeba; font-size: 12px; }
+.badge-saida { background-color: #f8d7da; color: #721c24; padding: 3px 8px; border-radius: 3px; border: 1px solid #f5c6cb; font-size: 12px; }
+
+/* Login Box */
+.login-box { width: 350px; margin: 100px auto; padding: 30px; background: white; border: 1px solid #ddd; text-align: center; }
