@@ -50,14 +50,7 @@ export default function Login() {
         justifyContent: "center",
         padding: "60px 56px",
       }}>
-        <div style={{
-          width: "36px",
-          height: "36px",
-          backgroundColor: "#ffffff",
-          borderRadius: "8px",
-          marginBottom: "48px",
-          opacity: 0.9,
-        }} />
+        
         <h1 style={{
           color: "#ffffff",
           fontSize: "28px",
